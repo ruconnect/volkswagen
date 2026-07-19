@@ -98,7 +98,7 @@ const modalForm = document.getElementById("modalForm");
 
 modalForm.addEventListener("submit", (event) => {
   event.preventDefault();
-  alert("Заявка отправлена! Это демо-форма, данные никуда не передаются.");
+  alert("Спасибо!");
   modal.classList.remove("active");
   modalForm.reset();
 });
@@ -110,7 +110,7 @@ contactForm.addEventListener("submit", (event) => {
   event.preventDefault();
 
   formStatus.textContent =
-    "Спасибо! Заявка принята. Это демо-форма, данные никуда не передаются.";
+    "Спасибо! Заявка принята.";
 
   contactForm.reset();
 
