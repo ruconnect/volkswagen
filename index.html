@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VW Auto Market — Volkswagen по выгодным ценам</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="header">
+    <nav class="navbar">
+      <a href="#" class="logo">
+        <span>VW</span> Auto Market
+      </a>
+
+      <button class="burger" id="burger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#cars">Автомобили</a></li>
+        <li><a href="#benefits">Преимущества</a></li>
+        <li><a href="#credit">Кредит</a></li>
+        <li><a href="#contacts">Контакты</a></li>
+      </ul>
+    </nav>
+
+    <section class="hero">
+      <div class="hero-content">
+        <div class="badge">Демо-сайт автосалона</div>
+        <h1>Volkswagen по низким ценам</h1>
+        <p>
+          Подберите Volkswagen мечты: Polo, Tiguan, Passat, Touareg и другие модели
+          с выгодными условиями покупки.
+        </p>
+        <div class="hero-buttons">
+          <a href="#cars" class="btn btn-primary">Смотреть авто</a>
+          <a href="#contacts" class="btn btn-secondary">Получить консультацию</a>
+        </div>
+      </div>
+    </section>
+  </header>
+
+  <main>
+    <section class="notice">
+      <strong>Важно:</strong> это демонстрационный шаблон сайта. Данные, цены и предложения указаны для примера.
+    </section>
+
+    <section class="section" id="cars">
+      <div class="section-title">
+        <p>Каталог</p>
+        <h2>Популярные модели Volkswagen</h2>
+      </div>
+
+      <div class="filters">
+        <button class="filter-btn active" data-filter="all">Все</button>
+        <button class="filter-btn" data-filter="sedan">Седаны</button>
+        <button class="filter-btn" data-filter="suv">Кроссоверы</button>
+        <button class="filter-btn" data-filter="premium">Премиум</button>
+      </div>
+
+      <div class="cars-grid">
+        <article class="car-card" data-category="sedan">
+          <div class="car-image img-1"></div>
+          <div class="car-info">
+            <h3>Volkswagen Polo</h3>
+            <p>2023 · Автомат · Бензин · 1.6 л</p>
+            <div class="price">от 1 250 000 ₽</div>
+            <button class="btn-card" data-car="Volkswagen Polo">Оставить заявку</button>
+          </div>
+        </article>
+
+        <article class="car-card" data-category="suv">
+          <div class="car-image img-2"></div>
+          <div class="car-info">
+            <h3>Volkswagen Tiguan</h3>
+            <p>2022 · DSG · Бензин · 2.0 л</p>
+            <div class="price">от 2 390 000 ₽</div>
+            <button class="btn-card" data-car="Volkswagen Tiguan">Оставить заявку</button>
+          </div>
+        </article>
+
+        <article class="car-card" data-category="sedan">
+          <div class="car-image img-3"></div>
+          <div class="car-info">
+            <h3>Volkswagen Passat</h3>
+            <p>2021 · Автомат · Бензин · 1.8 л</p>
+            <div class="price">от 2 050 000 ₽</div>
+            <button class="btn-card" data-car="Volkswagen Passat">Оставить заявку</button>
+          </div>
+        </article>
+
+        <article class="car-card" data-category="premium">
+          <div class="car-image img-4"></div>
+          <div class="car-info">
+            <h3>Volkswagen Touareg</h3>
+            <p>2022 · Автомат · Дизель · 3.0 л</p>
+            <div class="price">от 4 850 000 ₽</div>
+            <button class="btn-card" data-car="Volkswagen Touareg">Оставить заявку</button>
+          </div>
+        </article>
+
+        <article class="car-card" data-category="suv">
+          <div class="car-image img-5"></div>
+          <div class="car-info">
+            <h3>Volkswagen Taos</h3>
+            <p>2023 · Автомат · Бензин · 1.4 л</p>
+            <div class="price">от 2 100 000 ₽</div>
+            <button class="btn-card" data-car="Volkswagen Taos">Оставить заявку</button>
+          </div>
+        </article>
+
+        <article class="car-card" data-category="sedan">
+          <div class="car-image img-6"></div>
+          <div class="car-info">
+            <h3>Volkswagen Jetta</h3>
+            <p>2022 · Автомат · Бензин · 1.6 л</p>
+            <div class="price">от 1 790 000 ₽</div>
+            <button class="btn-card" data-car="Volkswagen Jetta">Оставить заявку</button>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section benefits" id="benefits">
+      <div class="section-title">
+        <p>Почему выбирают нас</p>
+        <h2>Выгодные условия покупки</h2>
+      </div>
+
+      <div class="benefits-grid">
+        <div class="benefit-card">
+          <div class="icon">₽</div>
+          <h3>Низкие цены</h3>
+          <p>Подбираем автомобили с привлекательной стоимостью и прозрачными условиями.</p>
+        </div>
+
+        <div class="benefit-card">
+          <div class="icon">✓</div>
+          <h3>Проверка авто</h3>
+          <p>Каждый автомобиль проходит базовую проверку состояния и документов.</p>
+        </div>
+
+        <div class="benefit-card">
+          <div class="icon">%</div>
+          <h3>Кредит и рассрочка</h3>
+          <p>Можно оставить заявку на предварительный расчёт ежемесячного платежа.</p>
+        </div>
+
+        <div class="benefit-card">
+          <div class="icon">★</div>
+          <h3>Поддержка</h3>
+          <p>Менеджер поможет подобрать модель под бюджет и пожелания.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section credit" id="credit">
+      <div class="credit-box">
+        <div>
+          <p class="small-title">Онлайн-расчёт</p>
+          <h2>Рассчитайте примерный платёж</h2>
+          <p>
+            Укажите стоимость авто, первоначальный взнос и срок кредита.
+            Калькулятор покажет ориентировочный ежемесячный платёж.
+          </p>
+        </div>
+
+        <form class="calculator" id="calcForm">
+          <label>
+            Стоимость авто, ₽
+            <input type="number" id="carPrice" value="1800000" min="100000" />
+          </label>
+
+          <label>
+            Первоначальный взнос, ₽
+            <input type="number" id="initialPay" value="300000" min="0" />
+          </label>
+
+          <label>
+            Срок, месяцев
+            <input type="number" id="months" value="60" min="1" />
+          </label>
+
+          <label>
+            Ставка, %
+            <input type="number" id="rate" value="12" min="0" />
+          </label>
+
+          <button type="submit" class="btn btn-primary">Рассчитать</button>
+
+          <div class="calc-result" id="calcResult">
+            Ежемесячный платёж: —
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <section class="section contacts" id="contacts">
+      <div class="section-title">
+        <p>Связаться</p>
+        <h2>Оставьте заявку</h2>
+      </div>
+
+      <form class="contact-form" id="contactForm">
+        <input type="text" id="name" placeholder="Ваше имя" required />
+        <input type="tel" id="phone" placeholder="Телефон" required />
+        <select id="carSelect">
+          <option value="">Выберите модель</option>
+          <option>Volkswagen Polo</option>
+          <option>Volkswagen Tiguan</option>
+          <option>Volkswagen Passat</option>
+          <option>Volkswagen Touareg</option>
+          <option>Volkswagen Taos</option>
+          <option>Volkswagen Jetta</option>
+        </select>
+        <textarea id="message" placeholder="Комментарий"></textarea>
+        <button type="submit" class="btn btn-primary">Отправить заявку</button>
+        <p class="form-status" id="formStatus"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2025 VW Auto Market. Демо-шаблон сайта.</p>
+    <p>Volkswagen является зарегистрированным товарным знаком соответствующего правообладателя.</p>
+  </footer>
+
+  <div class="modal" id="modal">
+    <div class="modal-content">
+      <button class="modal-close" id="modalClose">×</button>
+      <h2>Заявка на автомобиль</h2>
+      <p id="modalCar">Выбранная модель</p>
+
+      <form id="modalForm">
+        <input type="text" placeholder="Ваше имя" required />
+        <input type="tel" placeholder="Телефон" required />
+        <button type="submit" class="btn btn-primary">Отправить</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
